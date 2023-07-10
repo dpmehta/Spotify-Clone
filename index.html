@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="icon" type="image/png" href="android-chrome-512x512.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li id="logo"><img src="logo.png" alt="logo" /><span>Spotify</span></li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songList">
+        <h1>Your Favourite Playlist-Find Here</h1>
+        <div class="songs">
+          <div class="songItem">
+            <img src="covers\10.jpg" alt="1" />
+            <span class="songName">Let me love you !</span>
+            <span class="songlistPlay"
+              ><span class="timestamp">04:30</span
+              ><i
+                class="fa-regular fa-2x songItemPlay fa-circle-play"
+                id="0"
+                style="color: black"
+              ></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers\10.jpg" alt="2" />
+            <span class="songName">Let me love you !</span>
+            <span class="songlistPlay"
+              ><span class="timestamp">04:30</span
+              ><i
+                class="fa-regular fa-2x songItemPlay fa-circle-play"
+                id="1"
+                style="color: black"
+              ></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers\10.jpg" alt="3" />
+            <span class="songName">Let me love you !</span>
+            <span class="songlistPlay"
+              ><span class="timestamp">04:30</span
+              ><i
+                class="fa-regular fa-2x songItemPlay fa-circle-play"
+                id="2"
+                style="color: black"
+              ></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers\10.jpg" alt="4" />
+            <span class="songName">Let me love you !</span>
+            <span class="songlistPlay"
+              ><span class="timestamp">04:30</span
+              ><i
+                class="fa-regular fa-2x songItemPlay fa-circle-play"
+                id="3"
+                style="color: black"
+              ></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers\10.jpg" alt="5" />
+            <span class="songName">Let me love you !</span>
+            <span class="songlistPlay"
+              ><span class="timestamp">04:30</span
+              ><i
+                class="fa-regular fa-2x songItemPlay fa-circle-play"
+                id="4"
+                style="color: black"
+              ></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers\10.jpg" alt="6" />
+            <span class="songName">Let me love you !</span>
+            <span class="songlistPlay"
+              ><span class="timestamp">04:30</span
+              ><i
+                class="fa-regular fa-2x songItemPlay fa-circle-play"
+                id="5"
+                style="color: black"
+              ></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers\10.jpg" alt="7" />
+            <span class="songName">Let me love you !</span>
+            <span class="songlistPlay"
+              ><span class="timestamp">04:30</span
+              ><i
+                class="fa-regular fa-2x songItemPlay fa-circle-play"
+                id="6"
+                style="color: black"
+              ></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers\10.jpg" alt="8" />
+            <span class="songName">Let me love you !</span>
+            <span class="songlistPlay"
+              ><span class="timestamp">04:30</span
+              ><i
+                class="fa-regular fa-2x songItemPlay fa-circle-play"
+                id="7"
+                style="color: black"
+              ></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers\10.jpg" alt="9" />
+            <span class="songName">Let me love you !</span>
+            <span class="songlistPlay"
+              ><span class="timestamp">04:30</span
+              ><i
+                class="fa-regular fa-2x songItemPlay fa-circle-play"
+                id="8"
+                style="color: black"
+              ></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers\10.jpg" alt="10" />
+            <span class="songName">Let me love you !</span>
+            <span class="songlistPlay"
+              ><span class="timestamp">04:30</span
+              ><i
+                class="fa-regular fa-2x songItemPlay fa-circle-play"
+                id="9"
+                style="color: black"
+              ></i
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        value="0"
+        min="0"
+        max="100"
+      />
+
+      <div class="icons">
+        <i
+          class="fa-solid fa-3x fa-backward-step"
+          id="backward"
+          style="color: #14ce43"
+        ></i>
+        <i
+          class="fa-regular fa-3x fa-circle-play"
+          id="masterPlay"
+          style="color: #14ce43"
+        ></i>
+        <i
+          class="fa-solid fa-3x fa-forward-step"
+          id="forward"
+          style="color: #14ce43"
+        ></i>
+      </div>
+
+      <div class="song-info" id="gif">
+        <img src="playing.gif" alt="gif" />
+        <span id="masterSongName">Salam-E-ishq</span>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/f08d4344cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
